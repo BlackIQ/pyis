@@ -1,1 +1,1 @@
-import pyis
+from pyis import *
