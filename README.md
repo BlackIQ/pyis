@@ -156,18 +156,26 @@ then we use functions for check value. As you know, we have:
 ```python
 number = input("Give me number")
 
+# Check number is int or not
 if is_number(number):
+	# Number is more than 0 function
 	if is_positive(number):
 		print("Number is positive")
+	# Number is less than 0 function
 	elif is_negative(number):
 		print("Number is negative")
+	# Number is equal to 0 function
 	elif is_zero(number):
 		print("Number is zero")
+# Check number is float or not
 elif is_float(number):
+	# Number is more than 0 function
 	if is_positive(number):
 		print("Number is positive")
+	# Number is less than 0 function
 	elif is_negative(number):
 		print("Number is negative")
+	# Number is equal to 0 function
 	elif is_zero(number):
 		print("Number is zero")
 ```
@@ -189,14 +197,17 @@ tpl = (1, 2, 5)
 l = ['Hi', 10]
 dct = {'name' : None}
 
+# Function returns ( True ). Parm is dictionary
 if is_dict(dct):
+	# Here is a tuple.
 	if is_tuple(tpl):
 		print("This is a tuple")
-		
+	# Lets check list
 	if is_list(l):
+		# See is it set or not. Returns ( True )
 		if is_set(l[1]):
 			print("This item is set")
-
+	# Here we get ( True ). Parm is not set. It is empty
 	if is_empty(dct['name']):
 		print("This var is empty")
 ```
