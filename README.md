@@ -2,8 +2,6 @@
 
 **pyis** is a library to check values in your python projects.
 
-Check these out
-
 - Installation
 - Documentation
 
@@ -25,6 +23,12 @@ pip3 install -e .
 ### Documentation
 
 **pyis** has lots of functions that we will name them and say an aexample for each of them.
+
+First import it.
+
+```python
+from pyis import *
+```
 
 - `is_set()` is a function that check variable is set or not.
 
