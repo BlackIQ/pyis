@@ -46,6 +46,12 @@ def is_dict(var):
 	else:
 		return False
 		
+def is_tuple(var):
+	if type(var) == tuple:
+		return True
+	else:
+		return False
+		
 def is_function(var):
 	if callable(var):
 		return True
