@@ -146,7 +146,11 @@ Here are some examples that you can get the point better.
 
 **Get number and check number is float or int. Then check is positive or negative or zero**
 
-Here we use `is_number` to check if input is `int`. then we use functions for check value.
+Here we use `is_number` to check if input is `int` and `is_float` to see input is `float`.
+then we use functions for check value. As you know, we have:
+- `is_positive` for check if number is more than 0.
+- `is_negative` for check if number is less than 0.
+- `is_zero` for check if number is exactly 0.
 
 ```python
 number = input("Give me number")
