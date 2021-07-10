@@ -96,6 +96,36 @@ is_bool(v1) # Returns True
 is_bool(v2) # Returns False
 ```
 
+- `is_positive()` is a function that check variable is **positive** or not.
+
+```python
+v1 = 20
+v2 = 5 - 7
+
+is_positive(v1) # Returns True
+is_positive(v2) # Returns False
+```
+
+- `is_negative()` is a function that check variable is **negative** or not.
+
+```python
+v1 = 10 - 30
+v2 = 1
+
+is_negative(v1) # Returns True
+is_negative(v2) # Returns False
+```
+
+- `is_zero()` is a function that check variable is **zero** or not.
+
+```python
+v1 = 0
+v2 = 1
+
+is_zero(v1) # Returns True
+is_zero(v2) # Returns False
+```
+
 - `is_function()` is a function that check variable is **function** or not.
 
 ```python
