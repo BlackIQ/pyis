@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup (
 	name = 'pyis',
 	packages = find_packages(),
-	version = '0.1.0',
+	version = '0.5.0',
 	author = 'Amirhossein Mohammadi',
 	license = 'MIT',
 	author_email = "amirhosseinmohammadi1380@yahoo.com",
