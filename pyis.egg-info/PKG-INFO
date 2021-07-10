@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyis
+Version: 0.5.0
+Summary: PyIs library is a library to check values
+Home-page: https://github.com/BlackIQ/pyis
+Author: Amirhossein Mohammadi
+Author-email: amirhosseinmohammadi1380@yahoo.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Py Is (pyis)
+
+**pyis** is a library to check values in your python projects.
+
+Here is how to install **pyis**
+
+- Way number 1 : **Using pip**
+
+```
+pip3 install pyis
+```
+
+- Way number 2 : **Clone and install**
+
+```
+git clone https://github.com/BlackIQ/pyis && cd pyis
+pip3 install -e .
+```
+
+
