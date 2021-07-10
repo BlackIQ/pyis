@@ -64,6 +64,12 @@ def is_negative(var):
 	else:
 		return False
 	
+def is_zero(var):
+	if var == 0:
+		return True
+	else:
+		return False
+	
 def is_function(var):
 	if callable(var):
 		return True
