@@ -144,9 +144,10 @@ is_function(hello) # Returns True
 
 Here are some examples that you can get the point better.
 
-**Get number and check number is float or int. Then check is positive or negative or zero**
+**Numbers, check number is float or int. Then check is positive or negative or zero**
 
 Here we use `is_number` to check if input is `int` and `is_float` to see input is `float`.
+
 then we use functions for check value. As you know, we have:
 - `is_positive` for check if number is more than 0.
 - `is_negative` for check if number is less than 0.
@@ -169,4 +170,32 @@ elif is_float(number):
 		print("Number is negative")
 	elif is_zero(number):
 		print("Number is zero")
+```
+
+**Set or empty and talking about `tuple`, `list` and `dictionary`**
+
+Think there is a `list` or `dictionary` that you want to check values.
+
+For check if var is:
+- `list` we use `is_list`.
+- `tuple` we use `is_tuple`.
+- `dict` we use `is_dict`.
+
+So we use `is_set` to check if var is set or not. For check is var is empty we use `is_empty`.
+
+```python
+tpl = (1, 2, 5)
+l = ['Hi', 10]
+dct = {'name' : None}
+
+if is_dict(dct):
+	if is_tuple(tpl):
+		print("This is a tuple")
+		
+	if is_list(l):
+		if is_set(l[1]):
+			print("This item is set")
+
+	if is_empty(dct['name']):
+		print("This var is empty")
 ```
