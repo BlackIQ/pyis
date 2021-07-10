@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyis/__init__.py
+pyis/pyis.py
+pyis.egg-info/PKG-INFO
+pyis.egg-info/SOURCES.txt
+pyis.egg-info/dependency_links.txt
+pyis.egg-info/top_level.txt
