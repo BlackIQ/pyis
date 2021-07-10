@@ -6,11 +6,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup (
 	name = 'pyis',
 	packages = find_packages(),
-	version = '0.5.0',
+	version = '0.10.0',
 	author = 'Amirhossein Mohammadi',
 	license = 'MIT',
 	author_email = "amirhosseinmohammadi1380@yahoo.com",
-    description = "PyIs library is a library to check values",
+    description = "a library to check your values in your projects",
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = "https://github.com/BlackIQ/pyis"
