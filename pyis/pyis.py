@@ -40,6 +40,12 @@ def is_bool(var):
 	else:
 		return False
 		
+def is_dict(var):
+	if type(var) == dict:
+		return True
+	else:
+		return False
+		
 def is_function(var):
 	if callable(var):
 		return True
