@@ -5,6 +5,8 @@
 - Installation
 - Documentation
 - Examples
+- Developers
+- Next Update
 
 ### Installation
 
