@@ -237,3 +237,36 @@ if is_bool(lst[1]):
 if is_bool(lst[2]):
 	print("I can see a boolean")
 ```
+
+
+**Functions checking**
+
+See, think there is `callable` var. How do you check? You can use `is_function` to check it.
+
+So, how user can check functions?
+- `is_function` for check function
+
+```python
+def you(name, friend):
+	print(f"Hello {name} and {friend}!")
+	
+# Get True or False. You is a function, so it returns ( True )
+if is_function(you):
+	print("Look, a function!")
+```
+
+### Developers
+
+Amirhossein Mohammadi.
+
+Pull Requests are welcome to every one.
+
+### Next Update
+
+- [ ] Add most repeted item in a list
+- [ ] Add class checker
+- [ ] Add link string checker
+- [ ] Add IP checker
+
+
+**pyis** 2021 &copy;
