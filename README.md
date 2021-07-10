@@ -4,6 +4,7 @@
 
 - Installation
 - Documentation
+- Examples
 
 ### Installation
 
@@ -137,4 +138,31 @@ def hello(name):
 	print(f"Hello {name}")
 
 is_function(hello) # Returns True
+```
+
+### Examples
+
+Here are some examples that you can get the point better.
+
+**Get number and check number is float or int. Then check is positive or negative or zero**
+
+Here we use `is_number` to check if input is `int`. then we use functions for check value.
+
+```python
+number = input("Give me number")
+
+if is_number(number):
+	if is_positive(number):
+		print("Number is positive")
+	elif is_negative(number):
+		print("Number is negative")
+	elif is_zero(number):
+		print("Number is zero")
+elif is_float(number):
+	if is_positive(number):
+		print("Number is positive")
+	elif is_negative(number):
+		print("Number is negative")
+	elif is_zero(number):
+		print("Number is zero")
 ```
