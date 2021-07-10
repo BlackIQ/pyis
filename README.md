@@ -46,8 +46,6 @@ is_empty(e) # Returns False
 is_empty(ee) # Returns True
 ```
 
----
-
 - `is_number()` is a function that check variable is **int** or not.
 
 ```python
