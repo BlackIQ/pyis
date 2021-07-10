@@ -172,6 +172,7 @@ elif is_float(number):
 		print("Number is zero")
 ```
 
+
 **Set or empty and talking about `tuple`, `list` and `dictionary`**
 
 Think there is a `list` or `dictionary` that you want to check values.
@@ -198,4 +199,30 @@ if is_dict(dct):
 
 	if is_empty(dct['name']):
 		print("This var is empty")
+```
+
+**Strings and Booleans**
+
+Time of say some examples for strings and booleans.
+
+When there is something and you want to check is it `string` you can use `is_string`. We do same for `bool`, `is_bool` for see var is `boolean` or not.
+
+So we know this two functions now:
+- `is_string` for check strings.
+- `is_bool` to see var is `boolean`
+
+```python
+lst = ['False', 'amir', True]
+
+# Here it will returns ( True ). Why? Item is string
+if is_string(lst[0]):
+	print("Item 1 is string")
+	
+# Now we get ( False ). As you can see, item is string
+if is_bool(lst[1]):
+	print("This item is boolean")
+
+# Nice ( True ). Item is boolean
+if is_bool(lst[2]):
+	print("I can see a boolean")
 ```
