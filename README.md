@@ -45,3 +45,64 @@ ee = None
 is_empty(e) # Returns False
 is_empty(ee) # Returns True
 ```
+
+---
+
+- `is_number()` is a function that check variable is **int** or not.
+
+```python
+v1 = 18
+v2 = "string"
+
+is_number(v1) # Returns True
+is_number(v2) # Returns False
+```
+
+- `is_string()` is a function that check variable is **str** or not.
+
+```python
+v1 = "Annahita"
+v2 = 3.14
+
+is_string(v1) # Returns True
+is_string(v2) # Returns False
+```
+
+- `is_float()` is a function that check variable is **float** or not.
+
+```python
+v1 = 3.14
+v2 = ['hi', 'hey', 'hello']
+
+is_float(v1) # Returns True
+is_float(v2) # Returns False
+```
+
+- `is_list()` is a function that check variable is **list** or not.
+
+```python
+v1 = ['github', 'gitlab']
+v2 = 2021
+
+is_list(v1) # Returns True
+is_list(v2) # Returns False
+```
+
+- `is_bool()` is a function that check variable is **bool** or not.
+
+```python
+v1 = True
+v2 = "false"
+
+is_bool(v1) # Returns True
+is_bool(v2) # Returns False
+```
+
+- `is_function()` is a function that check variable is **function** or not.
+
+```python
+def hello(name):
+	print(f"Hello {name}")
+
+is_function(hello) # Returns True
+```
