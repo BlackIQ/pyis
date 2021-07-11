@@ -1,3 +1,5 @@
+repeted = []
+
 def is_set(var):
 	if var != None:
 		return True
@@ -75,3 +77,11 @@ def is_function(var):
 		return True
 	else:
 		return False
+		
+def item_repeted(lst):
+	for item in lst:
+		if item in repeted:
+			pass
+		else:
+			repeted.append(item)
+	return repeted
