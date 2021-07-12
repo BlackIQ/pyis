@@ -1,5 +1,7 @@
 repeted = []
 
+version = "0.11.2"
+
 def is_set(var):
 	if var != None:
 		return True
