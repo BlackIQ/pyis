@@ -33,6 +33,12 @@ First import it.
 from pyis import *
 ```
 
+- `version` for check version
+
+```python
+print(version)
+```
+
 - `is_set()` is a function that check variable is set or not.
 
 ```python
@@ -274,5 +280,6 @@ Pull Requests are welcome to every one.
 - [ ] Add class checker
 - [ ] Add link string checker
 - [ ] Add IP checker
+- [x] Add version value
 
 **pyis** 2021 &copy;
