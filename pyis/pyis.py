@@ -184,25 +184,22 @@ class internet:
         def is_forbidden(url):
             # internet.Errors.Is_Forbidden function
             # This function checks url forbidden or not
-            return url
+            if get(url).status_code == 403:
+                return True
 
         @staticmethod
         def is_not_found(url):
             # internet.Errors.Is_Not_Found function
             # This function checks url not found or not
-            return url
-
-        @staticmethod
-        def is_bad_gateway(url):
-            # internet.Errors.Is_Bad_Gateway function
-            # This function checks url returns bad gateway or not
-            return url
+            if get(url).status_code == 404:
+                return True
 
         @staticmethod
         def is_internal_server_error(url):
             # internet.Errors.Is_Internal_Server_Error function
             # This function checks url is 500 Error
-            return url
+            if get(url).status_code == 500:
+                return True
 
     class cloudflare:
         """
