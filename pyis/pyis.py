@@ -156,10 +156,14 @@ class internet:
         """
         @staticmethod
         def is_up(url):
+            # internet.Check.Is_Up function
+            # To check url returns 200 or not
             return url
 
         @staticmethod
         def is_down(url):
+            # internet.Check.Is_Down function
+            # To check url not returns 200
             return url
 
     class errors:
@@ -169,30 +173,26 @@ class internet:
         """
         @staticmethod
         def is_forbidden(url):
+            # internet.Errors.Is_Forbidden function
+            # This function checks url forbidden or not
             return url
 
         @staticmethod
         def is_not_found(url):
-            return url
-
-        @staticmethod
-        def is_bad_request(url):
-            return url
-
-        @staticmethod
-        def is_Unauthorized(url):
-            return url
-
-        @staticmethod
-        def is_method_not_allowed(url):
+            # internet.Errors.Is_Not_Found function
+            # This function checks url not found or not
             return url
 
         @staticmethod
         def is_bad_gateway(url):
+            # internet.Errors.Is_Bad_Gateway function
+            # This function checks url returns bad gateway or not
             return url
 
         @staticmethod
         def is_internal_server_error(url):
+            # internet.Errors.Is_Internal_Server_Error function
+            # This function checks url is 500 Error
             return url
 
     class cloudflare:
@@ -202,20 +202,24 @@ class internet:
         """
         @staticmethod
         def is_web_down(url):
-            return url
-
-        @staticmethod
-        def is_timeout(url):
+            # internet.Cloadflare.Is_Down function
+            # This function check host that cloudflare routes it is down or not
             return url
 
         @staticmethod
         def is_ssl_failed(url):
+            # internet.Cloadflare.Is_SSL_Failed function
+            # This function check SSL of host
             return url
 
         @staticmethod
         def is_ssl_invalid(url):
+            # internet.Cloadflare.Is_SSL_Invalid function
+            # This function check SSL of host is valid or invalid
             return url
 
         @staticmethod
         def is_origin_unreachable(url):
+            # internet.Cloadflare.Is_Origin_Unreachable function
+            # This function check host is reachable or not
             return url
