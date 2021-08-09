@@ -165,13 +165,15 @@ class internet:
         def is_up(url):
             # internet.Check.Is_Up function
             # To check url returns 200 or not
-            return url
+            if get(url).status_code == 200:
+                return True
 
         @staticmethod
         def is_down(url):
             # internet.Check.Is_Down function
             # To check url not returns 200
-            return url
+            if get(url).status_code != 200:
+                return True
 
     class errors:
         """
