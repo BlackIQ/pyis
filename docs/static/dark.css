@@ -16,3 +16,7 @@
     color: yellow;
     text-decoration: none;
 }
+.dark .codes {
+    background: #111111;
+    padding: 2%;
+}

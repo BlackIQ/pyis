@@ -17,3 +17,7 @@
     color: blue;
     text-decoration: none;
 }
+.light .codes {
+    background: #f6f6f6;
+    padding: 2%;
+}
