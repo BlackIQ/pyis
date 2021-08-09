@@ -1,0 +1,11 @@
+.light {
+    color: blue;
+    background: white;
+}
+.light .main {
+    padding: 5%;
+}
+.light .dialog {
+    border: solid 1px blue;
+    padding: 2%;
+}
