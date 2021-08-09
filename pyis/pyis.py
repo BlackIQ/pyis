@@ -96,6 +96,8 @@ class validations:
         """
         @staticmethod
         def is_set(var):
+            # Validations.Amount.Is_Set function
+            # To check variable is swt or not
             if var != None:
                 return True
             else:
@@ -103,6 +105,8 @@ class validations:
 
         @staticmethod
         def is_empty(var):
+            # Validations.Amount.Is_Empty function
+            # To check variable is empty or not
             if var == None:
                 return True
             else:
@@ -115,6 +119,8 @@ class validations:
         """
         @staticmethod
         def is_positive(var):
+            # Validations.Numbers.Is_Positive function
+            # To check variable is positive or not
             if var > 0:
                 return True
             else:
@@ -122,6 +128,8 @@ class validations:
 
         @staticmethod
         def is_negative(var):
+            # Validations.Numbers.Is_Negative function
+            # To check variable is negative or not
             if var < 0:
                 return True
             else:
@@ -129,6 +137,8 @@ class validations:
 
         @staticmethod
         def is_zero(var):
+            # Validations.Numbers.Is_Zero function
+            # To check variable is zero or not
             if var == 0:
                 return True
             else:
