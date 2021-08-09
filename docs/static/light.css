@@ -1,24 +1,24 @@
 @media (prefers-color-scheme: light) {
-    .light {
+    .all {
         color: blue;
         background: white;
     }
-    .light .main {
+    .all .main {
         padding: 6%;
     }
-    .light .dialog {
+    .all .dialog {
         border: solid 1px blue;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         padding: 5%;
     }
-    .light .link {
+    .all .link {
         color: blue;
     }
-    .light .name {
+    .all .name {
         color: blue;
         text-decoration: none;
     }
-    .light .codes {
+    .all .codes {
         background: #f6f6f6;
         padding: 2%;
     }
