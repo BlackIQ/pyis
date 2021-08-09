@@ -1,0 +1,18 @@
+.dark {
+    color: yellow;
+    background: black;
+}
+.dark .main {
+    padding: 6%;
+}
+.dark .dialog {
+    border: solid 1px yellow;
+    padding: 3%;
+}
+.dark .link {
+    color: yellow;
+}
+.dark .name {
+    color: yellow;
+    text-decoration: none;
+}

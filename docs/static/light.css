@@ -3,9 +3,17 @@
     background: white;
 }
 .light .main {
-    padding: 5%;
+    padding: 6%;
 }
 .light .dialog {
     border: solid 1px blue;
-    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5%;
+}
+.light .link {
+    color: blue;
+}
+.light .name {
+    color: blue;
+    text-decoration: none;
 }
