@@ -19,6 +19,8 @@ class validations:
         """
         @staticmethod
         def is_int(var):
+            # Validations.Type.Is_int function
+            # To check variable is int or not
             if type(var) == int:
                 return True
             else:
@@ -26,6 +28,8 @@ class validations:
 
         @staticmethod
         def is_string(var):
+            # Validations.Type.Is_String function
+            # To check variable is string or not
             if type(var) == str:
                 return True
             else:
@@ -33,6 +37,8 @@ class validations:
 
         @staticmethod
         def is_float(var):
+            # Validations.Type.Is_Float function
+            # To check variable is float or not
             if type(var) == float:
                 return True
             else:
@@ -40,6 +46,8 @@ class validations:
 
         @staticmethod
         def is_list(var):
+            # Validations.Type.Is_List function
+            # To check variable is list or not
             if type(var) == list:
                 return True
             else:
@@ -47,6 +55,8 @@ class validations:
 
         @staticmethod
         def is_bool(var):
+            # Validations.Type.Is_Bool function
+            # To check variable is bool or not
             if type(var) == bool:
                 return True
             else:
@@ -54,6 +64,8 @@ class validations:
 
         @staticmethod
         def is_dict(var):
+            # Validations.Type.Is_Dict function
+            # To check variable is dict or not
             if type(var) == dict:
                 return True
             else:
@@ -61,6 +73,8 @@ class validations:
 
         @staticmethod
         def is_tuple(var):
+            # Validations.Type.Is_Tuple function
+            # To check variable is tuple or not
             if type(var) == tuple:
                 return True
             else:
@@ -68,6 +82,8 @@ class validations:
 
         @staticmethod
         def is_function(var):
+            # Validations.Type.Is_Function function
+            # To check variable is function or not
             if callable(var):
                 return True
             else:
