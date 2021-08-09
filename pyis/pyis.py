@@ -5,13 +5,13 @@
     Github: github.com/BlackIQ/pyis
 
     Last Update: Aug 9 2021
-    Version: V 0.v.v
+    Version: 1.9.3
 """
 
 # Importing required libraries
 from requests import get
 
-version = "0.15.2"
+version = "1.9.3"
 
 
 class validations:
