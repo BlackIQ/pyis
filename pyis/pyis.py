@@ -210,22 +210,26 @@ class internet:
         def is_web_down(url):
             # internet.Cloadflare.Is_Down function
             # This function check host that cloudflare routes it is down or not
-            return url
+            if get(url).status_code == 521:
+                return True
 
         @staticmethod
         def is_ssl_failed(url):
             # internet.Cloadflare.Is_SSL_Failed function
             # This function check SSL of host
-            return url
+            if get(url).status_code == 525:
+                return True
 
         @staticmethod
         def is_ssl_invalid(url):
             # internet.Cloadflare.Is_SSL_Invalid function
             # This function check SSL of host is valid or invalid
-            return url
+            if get(url).status_code == 526:
+                return True
 
         @staticmethod
         def is_origin_unreachable(url):
             # internet.Cloadflare.Is_Origin_Unreachable function
             # This function check host is reachable or not
-            return url
+            if get(url).status_code == 523:
+                return True
