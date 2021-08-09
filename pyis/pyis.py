@@ -1,9 +1,14 @@
 """
     PyIs Module
+
     Developed by Amirhossein Mohammadi
     Github: github.com/BlackIQ/pyis
+
+    Last Update: Aug 9 2021
+    Version: V 0.v.v
 """
 
+# Importing required libraries
 from requests import get
 
 version = "0.15.2"
