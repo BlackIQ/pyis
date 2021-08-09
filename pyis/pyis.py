@@ -101,3 +101,6 @@ class validations:
                 return True
             else:
                 return False
+
+class internet:
+    
