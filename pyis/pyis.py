@@ -140,3 +140,24 @@ class internet:
         @staticmethod
         def is_internal_server_error(url):
             return url
+
+    class cloudflare:
+        @staticmethod
+        def is_web_down(url):
+            return url
+
+        @staticmethod
+        def is_timeout(url):
+            return url
+
+        @staticmethod
+        def is_ssl_failed(url):
+            return url
+
+        @staticmethod
+        def is_ssl_invalid(url):
+            return url
+
+        @staticmethod
+        def is_origin_unreachable(url):
+            return url
