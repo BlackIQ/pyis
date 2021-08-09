@@ -8,7 +8,15 @@ version = "0.15.2"
 
 
 class validations:
+    """
+        Validations Class
+        Here we have classes for validate variables
+    """
     class type:
+        """
+            Validations.Type Class
+            Here are functions for check type of variables
+        """
         @staticmethod
         def is_int(var):
             if type(var) == int:
@@ -66,6 +74,10 @@ class validations:
                 return False
 
     class amount:
+        """
+            Validations.Amount Class
+            Here are functions for check amount of variables
+        """
         @staticmethod
         def is_set(var):
             if var != None:
@@ -81,6 +93,10 @@ class validations:
                 return False
 
     class numbers:
+        """
+            Validations.Numbers Class
+            Here are functions for check number is more or less or equal to zero
+        """
         @staticmethod
         def is_positive(var):
             if var > 0:
@@ -103,7 +119,15 @@ class validations:
                 return False
 
 class internet:
+    """
+        Internet Class
+        Here we have classes for internet checking
+    """
     class check:
+        """
+            Internet.Check Class
+            Here are functions for check status of urls
+        """
         @staticmethod
         def is_up(url):
             return url
@@ -113,6 +137,10 @@ class internet:
             return url
 
     class errors:
+        """
+            Internet.Errors Class
+            Here are functions for check client or server errors of urls
+        """
         @staticmethod
         def is_forbidden(url):
             return url
@@ -142,6 +170,10 @@ class internet:
             return url
 
     class cloudflare:
+        """
+            Internet.Cluoudflare Class
+            Here are functions for check cloudflare errors
+        """
         @staticmethod
         def is_web_down(url):
             return url
