@@ -1,22 +1,24 @@
-.dark {
-    color: yellow;
-    background: black;
-}
-.dark .main {
-    padding: 6%;
-}
-.dark .dialog {
-    border: solid 1px yellow;
-    padding: 3%;
-}
-.dark .link {
-    color: yellow;
-}
-.dark .name {
-    color: yellow;
-    text-decoration: none;
-}
-.dark .codes {
-    background: #111111;
-    padding: 2%;
+@media (prefers-color-scheme: dark) {
+    .dark {
+        color: yellow;
+        background: black;
+    }
+    .dark .main {
+        padding: 6%;
+    }
+    .dark .dialog {
+        border: solid 1px yellow;
+        padding: 3%;
+    }
+    .dark .link {
+        color: yellow;
+    }
+    .dark .name {
+        color: yellow;
+        text-decoration: none;
+    }
+    .dark .codes {
+        background: #111111;
+        padding: 2%;
+    }
 }
