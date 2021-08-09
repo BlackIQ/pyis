@@ -103,4 +103,13 @@ class validations:
                 return False
 
 class internet:
+    class check:
+        @staticmethod
+        def is_up(url):
+            return url
+
+        @staticmethod
+        def is_down(url):
+            return url
+
     
