@@ -13,5 +13,6 @@ setup(
     description="A library to check your values in your projects",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/BlackIQ/pyis"
+    url="https://github.com/BlackIQ/pyis",
+    install_requires="requests==2.26.0"
 )
