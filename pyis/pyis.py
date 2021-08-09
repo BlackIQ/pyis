@@ -112,4 +112,31 @@ class internet:
         def is_down(url):
             return url
 
-    
+    class errors:
+        @staticmethod
+        def is_forbidden(url):
+            return url
+
+        @staticmethod
+        def is_not_found(url):
+            return url
+
+        @staticmethod
+        def is_bad_request(url):
+            return url
+
+        @staticmethod
+        def is_Unauthorized(url):
+            return url
+
+        @staticmethod
+        def is_method_not_allowed(url):
+            return url
+
+        @staticmethod
+        def is_bad_gateway(url):
+            return url
+
+        @staticmethod
+        def is_internal_server_error(url):
+            return url
