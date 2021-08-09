@@ -1,6 +1,10 @@
-repeted = []
+"""
+    PyIs Module
+    Developed by Amirhossein Mohammadi
+    Github: github.com/BlackIQ/pyis
+"""
 
-version = "0.11.2"
+version = "0.15.2"
 
 
 def is_set(var):
