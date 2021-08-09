@@ -95,6 +95,7 @@ class validations:
             else:
                 return False
 
+        @staticmethod
         def is_zero(var):
             if var == 0:
                 return True
