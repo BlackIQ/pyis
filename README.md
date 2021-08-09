@@ -274,12 +274,4 @@ Amirhossein Mohammadi.
 
 Pull Requests are welcome to every one.
 
-### Next Update
-
-- [ ] Add most repeted item in a list
-- [ ] Add class checker
-- [ ] Add link string checker
-- [ ] Add IP checker
-- [x] Add version value
-
 **pyis** 2021 &copy;
