@@ -4,6 +4,8 @@
     Github: github.com/BlackIQ/pyis
 """
 
+from requests import get
+
 version = "0.15.2"
 
 
