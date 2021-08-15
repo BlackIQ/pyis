@@ -2,53 +2,53 @@
 
 Here are links to the document section
 
-### [Getting Started]()
+- ### [Getting Started]()
 
-- [Introduce]()
-- [Installing]()
-- [Overview]()
+  - [Introduce]()
+  - [Installing]()
+  - [Overview]()
 
-### [Validation Class]()
+- ### [Validation Class]()
 
-**[Type Class]()**
+    - **[Type Class]()**
 
-- [is_int]()
-- [is_string]()
-- [is_float]()
-- [is_list]()
-- [is_book]()
-- [is_dict]()
-- [is_tuple]()
-- [is_function]()
+      - [is_int]()
+      - [is_string]()
+      - [is_float]()
+      - [is_list]()
+      - [is_book]()
+      - [is_dict]()
+      - [is_tuple]()
+      - [is_function]()
 
-**[Amount Class]()**
+    - **[Amount Class]()**
 
-- [is_set]()
-- [is_empty]()
+      - [is_set]()
+      - [is_empty]()
 
-**[Numbers CLass]()**
+    - **[Numbers CLass]()**
 
-- [is_positive]()
-- [is_negative]()
-- [is_zero]()
+      - [is_positive]()
+      - [is_negative]()
+      - [is_zero]()
 
 
-### [Internet Class]()
+- ### [Internet Class]()
 
-**[Check Class]()**
+  - **[Check Class]()**
 
-- [is_up]()
-- [is_down]()
+    - [is_up]()
+    - [is_down]()
 
-**[Errors Class]()**
+    - **[Errors Class]()**
 
-- [is_forbidden]()
-- [is_not_found]()
-- [is_internal_server_error]()
+    - [is_forbidden]()
+    - [is_not_found]()
+    - [is_internal_server_error]()
 
-**[Cloudflare CLass]()**
+  - **[Cloudflare CLass]()**
 
-- [is_web_down]()
-- [is_ssl_failed]()
-- [is_ssl_invalid]()
-- [is_origin_unreachable]()
+    - [is_web_down]()
+    - [is_ssl_failed]()
+    - [is_ssl_invalid]()
+    - [is_origin_unreachable]()
