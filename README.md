@@ -1,9 +1,9 @@
 ## pyis
 
-**pyis** is a library to check values in your python projects.
+**pyis** is a library to make your conditions easier.
+With **pyis** you don't need to write long conditions. Just use **pyis** classes.
 
 - [Installation]()
 - [Documentation]()
-- [Examples]()
 
 **pyis** 2021 &copy; Licensed under MIT license.
