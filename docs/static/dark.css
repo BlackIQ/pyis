@@ -21,4 +21,18 @@
         background: #222;
         padding: 2%;
     }
+    .all .item {
+        list-style-type: none;
+    }
+    .all .on {
+        font-weight: bold;
+        list-style: disc;
+    }
+    .all .listlink {
+        color: white;
+        text-decoration: none;
+    }
+    .all .listlink:hover {
+        color: #aaa;
+    }
 }
