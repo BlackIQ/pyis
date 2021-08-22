@@ -5,166 +5,108 @@
     <meta charset="UTF-8">
 
     <script src="https://kit.fontawesome.com/4a679d8ec0.js" crossorigin="anonymous"></script>
-    
-    <link href="https://blackiq.github.io/pyis/static/main.css" rel="stylesheet" type="text/css">
-    <link href="https://blackiq.github.io/pyis/static/light.css" rel="stylesheet" type="text/css">
-    <link href="https://blackiq.github.io/pyis/static/dark.css" rel="stylesheet" type="text/css">
-    
+
+    <link href="../static/main.css" rel="stylesheet" type="text/css">
+    <link href="../static/light.css" rel="stylesheet" type="text/css">
+    <link href="../static/dark.css" rel="stylesheet" type="text/css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body class="all" id="all">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand name" href="../index.html">PyIs</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active link" aria-current="page" href="installation.html">Installation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" aria-current="page" href="index.html">Documentations</a>
-                    </li>
-                </ul>
-                <div class="navbar-nav">
-                    <a class="nav-link active link" href="../pages/index.html#about">About</a>
-                    <a class="nav-link active link" href="https://github.com/BlackIQ/pyis">Github</a>
-                    <a class="nav-link active link" href="https://pypi.org/project/pyis/">PyPi</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <br>
-    <div class="main">
-        <div class="row">
-            <div class="col-md-4">
-                <p><a href="index.html" class="name">Getting Started</a></p>
-                <p><a href="installation.html" class="name">Installation</a></p>
-                <p><i class="fa fa-sm fa-circle"></i>&nbsp;<b><a href="." class="name">Overview</a></b></p>
-                <br>
-                <ul>
-                    <li>Validations class</li>
-                    <br>
-                    <ul>
-                        <li>Type Class</li>
-                        <ul>
-                            <li>is_int</li>
-                            <li>is_string</li>
-                            <li>is_float</li>
-                            <li>is_list</li>
-                            <li>is_book</li>
-                            <li>is_dict</li>
-                            <li>is_tuple</li>
-                            <li>is_function</li>
-                        </ul>
-                        <br>
-                        <li>Amount Class</li>
-                        <ul>
-                            <li>is_set</li>
-                            <li>is_empty</li>
-                        </ul>
-                        <br>
-                        <li>Numbers Class</li>
-                        <ul>
-                            <li>is_positive</li>
-                            <li>is_negative</li>
-                            <li>is_zero</li>
-                        </ul>
-                    </ul>
-                    <br>
-                    <li>Internet class</li>
-                    <br>
-                    <ul>
-                        <li>Check Class</li>
-                        <ul>
-                            <li>is_up</li>
-                            <li>is_down</li>
-                        </ul>
-                        <br>
-                        <li>Errors Class</li>
-                        <ul>
-                            <li>is_set</li>
-                            <li>is_empty</li>
-                        </ul>
-                        <br>
-                        <li>Cloudflare Class</li>
-                        <ul>
-                            <li>is_positive</li>
-                            <li>is_negative</li>
-                            <li>is_zero</li>
-                        </ul>
-                    </ul>
-                </ul>
-            </div>
-            <div class="col-md-8">
-                <h1 id="overview"><b><a href="#overview" class="name">#</a> Overview</b></h1>
-                <br>
-                <br>
-                <br>
-                <h2 id="classes"><b><a href="#classes" class="name">#</a> <b>PyIs</b> Classes</b></h2>
-                <p>As you know, <b>PyIs</b> has to much classes and methods.</p>
-                <p>Here we are just going to name some of them and describe them a little bit.</p>
-                <br>
-                <br>
-                <h3 id="validations"><b><a href="#validations" class="name">#</a> Validations</b></h3>
-                <p>In <b>Validations</b> class we have 3 more classes.</p>
-                <div class="codes">
-                    <p>
-                        <code>
-                            class validations:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;class type:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Type class
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;class amount:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Amount class
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;class numbers:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Numbers class
-                        </code>
-                    </p>
-                </div>
-                <br>
-                <p>Everything in <b>PyIs</b> telled in its page. <a href="#" class="name">Go to validations page.</a></p>
-                <br>
-                <h3 id="internet"><b><a href="#internet" class="name">#</a> Internet</b></h3>
-                <p><b>Internet</b> class has 3 classes.</p>
-                <div class="codes">
-                    <p>
-                        <code>
-                            class internet:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;class check:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Checking class
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;class errors:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Errors class
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;class cloudflare:
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Cloudflare class
-                        </code>
-                    </p>
-                </div>
-                <br>
-                <p>For learn about <b>Interet class</b>, go to its page. <a href="#" class="name">Go to validations page.</a></p>
-                <br>
-                <hr>
-                <h5><a href="installation.html" class="left name">Pre | <small>Installation</small></a> <a href="#" class="right name">Next | <small>Validations</small></a></h5>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand name" href="../index.html">PyIs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active link" aria-current="page" href="installation.html">Installation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link" aria-current="page" href="index.html">Documentations</a>
+                </li>
+            </ul>
+            <div class="navbar-nav">
+                <a class="nav-link active link" href="../pages/about.html">About</a>
+                <a class="nav-link active link" href="https://github.com/BlackIQ/pyis">Github</a>
+                <a class="nav-link active link" href="https://pypi.org/project/pyis/">PyPi</a>
             </div>
         </div>
     </div>
+</nav>
+<br>
+<div class="main">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="side">
+                <ul>
+                    <li class="item"><a class="listlink" href="index.html">Getting Started</a></li>
+                    <li class="item"><a class="listlink" href="installation.html">Installation</a></li>
+                    <li class="on"><a class="listlink" href="overview.html">Overview</a></li>
+                    <br>
+                    <li class="item"><a class="listlink" href="validations/index.html">Validation class</a></li>
+                    <ul>
+                        <li class="item"><a class="listlink" href="validations/type/index.html">Type class</a></li>
+                        <ul>
+                            <li class="item"><a class="listlink" href="validations/type/is_int.html">is_int</a></li>
+                            <li class="item"><a class="listlink" href="validations/type/is_string.html">is_string</a></li>
+                            <li class="item"><a class="listlink" href="validations/type/is_float.html">is_float</a></li>
+                            <li class="item"><a class="listlink" href="validations/type/is_list.html">is_list</a></li>
+                            <li class="item"><a class="listlink" href="validations/type/is_bool.html">is_bool</a></li>
+                            <li class="item"><a class="listlink" href="validations/type/is_dict.html">is_dict</a></li>
+                            <li class="item"><a class="listlink" href="validations/type/is_tuple.html">is_tuple</a></li>
+                            <li class="item"><a class="listlink" href="validations/type/is_function.html">is_function</a></li>
+                        </ul>
+                        <li class="item"><a class="listlink" href="validations/amount/index.html">Amount class</a></li>
+                        <ul>
+                            <li class="item"><a class="listlink" href="validations/amount/is_set.html">is_set</a></li>
+                            <li class="item"><a class="listlink" href="validations/amount/is_empty.html">is_empty</a></li>
+                        </ul>
+                        <li class="item"><a class="listlink" href="validations/numbers/index.html">Numbers class</a></li>
+                        <ul>
+                            <li class="item"><a class="listlink" href="validations/numbers/is_positive.html">is_positive</a></li>
+                            <li class="item"><a class="listlink" href="validations/numbers/is_negative.html">is_negative</a></li>
+                            <li class="item"><a class="listlink" href="validations/numbers/is_zero.html">is_zero</a></li>
+                        </ul>
+                    </ul>
+                    <br>
+                    <li class="item"><a class="listlink" href="internet/index.html">Internet class</a></li>
+                    <ul>
+                        <li class="item"><a class="listlink" href="internet/check/index.html">Check class</a></li>
+                        <ul>
+                            <li class="item"><a class="listlink" href="internet/check/is_up.html">is_up</a></li>
+                            <li class="item"><a class="listlink" href="internet/check/is_down.html">is_down</a></li>
+                        </ul>
+                        <li class="item"><a class="listlink" href="internet/errors/index.html">Errors class</a></li>
+                        <ul>
+                            <li class="item"><a class="listlink" href="internet/errors/is_forbidden.html">is_forbidden</a></li>
+                            <li class="item"><a class="listlink" href="internet/errors/is_not_found.html">is_not_found</a></li>
+                            <li class="item"><a class="listlink" href="internet/errors/is_internal_server_error.html">is_internal_server_error</a></li>
+                        </ul>
+                        <li class="item"><a class="listlink" href="internet/cloudflare/index.html">Cloudflare class</a></li>
+                        <ul>
+                            <li class="item"><a class="listlink" href="internet/cloudflare/is_web_down.html">is_web_down</a></li>
+                            <li class="item"><a class="listlink" href="internet/cloudflare/is_ssl_failed.html">is_ssl_failed</a></li>
+                            <li class="item"><a class="listlink" href="internet/cloudflare/is_ssl_invalid.html">is_ssl_invalid</a></li>
+                            <li class="item"><a class="listlink" href="internet/cloudflare/is_origin_unreachable.html">is_origin_unreachable</a></li>
+                        </ul>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <br>
+            <hr>
+            <h5><a href="#" class="left name">Pre | <small></small></a> <a href="#" class="right name">Next | <small></small></a></h5>
+        </div>
+    </div>
+</div>
 
-    <script src="https://blackiq.github.io/pyis/static/script.js"></script>
+<script src="../static/script.js"></script>
 </body>
 </html>
