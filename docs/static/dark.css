@@ -1,24 +1,24 @@
 @media (prefers-color-scheme: dark) {
     .all {
-        color: yellow;
-        background: black;
+        color: white;
+        background: #111;
     }
     .all .main {
         padding: 6%;
     }
     .all .dialog {
-        border: solid 1px yellow;
+        border: solid 1px white;
         padding: 3%;
     }
     .all .link {
-        color: yellow;
+        color: white;
     }
     .all .name {
-        color: yellow;
+        color: white;
         text-decoration: none;
     }
     .all .codes {
-        background: #111111;
+        background: #222;
         padding: 2%;
     }
 }
