@@ -601,9 +601,6 @@ wheels = [
 name = "pyis"
 version = "1.10.5"
 source = { editable = "." }
-dependencies = [
-    { name = "requests" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -613,7 +610,6 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "requests", specifier = ">=2.34.2" }]
 
 [package.metadata.requires-dev]
 dev = [

@@ -27,9 +27,6 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
-dependencies = [
-    "requests>=2.34.2"
-]
 
 [project.urls]
 Homepage = "https://gitlab.com/blackiq-packages/pypi/pyis"
