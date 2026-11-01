@@ -1,11 +1,11 @@
 """
-    PyIs Module
+PyIs Module
 
-    Developed by Amirhossein Mohammadi
-    Github: github.com/BlackIQ/pyis
+Developed by Amirhossein Mohammadi
+Github: github.com/BlackIQ/pyis
 
-    Last Update: Aug 9 2021
-    Version: 1.9.3
+Last Update: Aug 9 2021
+Version: 1.9.3
 """
 
 # Importing required libraries
@@ -16,14 +16,14 @@ version = "1.9.3"
 
 class validations:
     """
-        Validations Class
-        Here we have classes for validate variables
+    Validations Class
+    Here we have classes for validate variables
     """
 
     class type:
         """
-            Validations.Type Class
-            Here are functions for check type of variables
+        Validations.Type Class
+        Here are functions for check type of variables
         """
 
         @staticmethod
@@ -100,8 +100,8 @@ class validations:
 
     class amount:
         """
-            Validations.Amount Class
-            Here are functions for check amount of variables
+        Validations.Amount Class
+        Here are functions for check amount of variables
         """
 
         @staticmethod
@@ -124,8 +124,8 @@ class validations:
 
     class numbers:
         """
-            Validations.Numbers Class
-            Here are functions for check number is more or less or equal to zero
+        Validations.Numbers Class
+        Here are functions for check number is more or less or equal to zero
         """
 
         @staticmethod
@@ -158,14 +158,14 @@ class validations:
 
 class internet:
     """
-        Internet Class
-        Here we have classes for internet checking
+    Internet Class
+    Here we have classes for internet checking
     """
 
     class check:
         """
-            Internet.Check Class
-            Here are functions for check status of urls
+        Internet.Check Class
+        Here are functions for check status of urls
         """
 
         @staticmethod
@@ -184,8 +184,8 @@ class internet:
 
     class errors:
         """
-            Internet.Errors Class
-            Here are functions for check client or server errors of urls
+        Internet.Errors Class
+        Here are functions for check client or server errors of urls
         """
 
         @staticmethod
@@ -211,8 +211,8 @@ class internet:
 
     class cloudflare:
         """
-            Internet.Cluoudflare Class
-            Here are functions for check cloudflare errors
+        Internet.Cluoudflare Class
+        Here are functions for check cloudflare errors
         """
 
         @staticmethod
