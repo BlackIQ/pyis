@@ -28,7 +28,7 @@ nav:
   - Home: index.md
   - Learn:
     - Install: learn/install.md
-    - Functions: learn/functions.md
+    - Usage: learn/usage.md
 
 markdown_extensions:
   - tables
