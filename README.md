@@ -1,9 +1,30 @@
-## pyis
+# PyIs
 
-**pyis** is a library to make your conditions easier.
-With **pyis** you don't need to write long conditions. Just use **pyis** classes.
+Small helpers for type, presence, and number checks.
 
-- [Installation]()
-- [Documentation]()
+```bash
+pip install pyis
+```
 
-**pyis** 2021 &copy; Licensed under MIT license.
+```python
+from pyis import validations
+
+validations.type.is_string("hi")
+validations.amount.is_set(1)
+validations.numbers.is_positive(10)
+```
+
+## Docs
+
+[pyis.amirhossein.info](https://pyis.amirhossein.info)
+
+## Links
+
+|        |                                               |
+| ------ | --------------------------------------------- |
+| PyPI   | https://pypi.org/project/pyis/                |
+| Source | https://gitlab.com/blackiq-packages/pypi/pyis |
+
+## License
+
+MIT
