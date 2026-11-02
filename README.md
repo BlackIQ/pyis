@@ -1,4 +1,4 @@
-# PyIs
+# pyis
 
 Small helpers for type, presence, and number checks.
 
