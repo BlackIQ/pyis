@@ -1,0 +1,3 @@
+# Functions
+
+Here are functions
