@@ -1,0 +1,38 @@
+site_name: PyIs Docs
+site_description: Official PyIs Package documentation
+site_url: https://pyis.amirhossein.info
+
+repo_url: https://gitlab.com/blackiq-packages/pypi/pyis
+repo_name: amirhossein/pyis
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: purple
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - scheme: slate
+      primary: purple
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Learn:
+    - Install: learn/install.md
+    - Functions: learn/functions.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
