@@ -1,6 +1,6 @@
 site_name: PyIs Docs
 site_description: Official PyIs Package documentation
-site_url: https://pyis.amirhossein.info
+site_url: https://pyis.docs.amirhossein.info
 
 repo_url: https://gitlab.com/blackiq-packages/pypi/pyis
 repo_name: amirhossein/pyis
