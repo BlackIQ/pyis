@@ -16,7 +16,7 @@ validations.numbers.is_positive(10)
 
 ## Docs
 
-[pyis.amirhossein.info](https://pyis.amirhossein.info)
+Full documentation: [pyis.amirhossein.info](https://pyis.amirhossein.info)
 
 ## Links
 
