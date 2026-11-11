@@ -16,14 +16,15 @@ validations.numbers.is_positive(10)
 
 ## Docs
 
-[pyis.docs.amirhossein.info](https://pyis.docs.amirhossein.info)
+[pyis.amirhossein.info](https://pyis.amirhossein.info)
 
 ## Links
 
-|        |                                               |
-| ------ | --------------------------------------------- |
-| PyPI   | https://pypi.org/project/pyis/                |
-| Source | https://gitlab.com/blackiq-packages/pypi/pyis |
+| Title  | URL                             |
+| ------ | ------------------------------- |
+| PyPI   | https://pypi.org/project/pyis   |
+| Source | https://github.com/BlackIQ/pyis |
+| Docs   | https://pyis.amirhossein.info   |
 
 ## License
 

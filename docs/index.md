@@ -15,7 +15,7 @@ validations.numbers.is_positive(3)    # True
 |        |                                                         |
 | ------ | ------------------------------------------------------- |
 | PyPI   | [pypi.org/project/pyis](https://pypi.org/project/pyis/) |
-| Source | [GitLab](https://gitlab.com/blackiq-packages/pypi/pyis) |
+| Source | [GitHub](https://github.com/BlackIQ/pyis)               |
 
 ## Next
 

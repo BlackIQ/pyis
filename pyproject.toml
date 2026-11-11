@@ -29,9 +29,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://gitlab.com/blackiq-packages/pypi/pyis"
-Repository = "https://gitlab.com/blackiq-packages/pypi/pyis"
-Issues = "https://gitlab.com/blackiq-packages/pypi/pyis/-/issues"
+Homepage = "https://pyis.amirhossein.info"
+Repository = "https://github.com/BlackIQ/pyis"
+Issues = "https://github.com/BlackIQ/pyis/issues"
 
 [tool.setuptools.packages.find]
 include = ["pyis*"]
