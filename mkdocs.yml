@@ -19,20 +19,20 @@ theme:
         name: Switch to light mode
     - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: purple
-      accent: purple
+      primary: yellow
+      accent: yellow
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
-      primary: purple
-      accent: purple
+      primary: yellow
+      accent: yellow
       toggle:
         icon: material/lightbulb-outline
         name: Switch to system preference
   font:
-    text: Vazirmatn
+    text: Inter
     code: JetBrains Mono
   icon:
     repo: octicons/mark-github-24
