@@ -1,45 +1,10 @@
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
-
 [project]
-name = "pyis"
-version = "1.10.8"
-description = "A Python library for value validation and internet status checks"
-readme = "README.md"
-requires-python = ">=3.11"
-license = { file = "LICENSE" }
-authors = [
-    { name = "Amirhossein Mohammadi", email = "amirhosseinmohammadi1380@yahoo.com" }
-]
-keywords = [
-    "validation",
-    "type-checking",
-    "internet",
-    "http",
-    "utilities"
-]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3 :: Only",
-    "Topic :: Software Development :: Libraries :: Python Modules"
-]
-
-[project.urls]
-Homepage = "https://pyis.amirhossein.info"
-Repository = "https://github.com/BlackIQ/pyis"
-Issues = "https://github.com/BlackIQ/pyis/issues"
-
-[tool.setuptools.packages.find]
-include = ["pyis*"]
+name = "pyis-docs"
+version = "0.1.0"
+description = "Helpers to check and validate values in your projects"
+requires-python = ">=3.13"
 
 [dependency-groups]
 dev = [
-    "build>=1.6.1",
     "zensical>=0.1.0",
-    "pytest>=9.2.0",
-    "twine>=7.0.0",
 ]

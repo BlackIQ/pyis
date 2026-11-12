@@ -2,8 +2,8 @@ name: Documentation
 
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - docs
 
 permissions:
   contents: read
@@ -18,14 +18,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/configure-pages@v6
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - run: pip install mkdocs mkdocs-material
-      - run: mkdocs build --clean
-      - uses: actions/upload-pages-artifact@v5
+          python-version: "3.13"
+      - run: pip install zensical
+      - run: zensical build --clean
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - uses: actions/deploy-pages@v5
+      - uses: actions/deploy-pages@v4
         id: deployment
