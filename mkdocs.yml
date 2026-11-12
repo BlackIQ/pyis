@@ -1,28 +1,63 @@
+INHERIT: ./mkdocs.env.yml
+
 site_name: PyIs Docs
 site_description: Official PyIs Package documentation
+site_author: Amirhossein Mohammadi
 site_url: https://pyis.amirhossein.info
 
 repo_url: https://github.com/BlackIQ/pyis
 repo_name: BlackIQ/pyis
 
+copyright: Copyright &copy; 2026 Amirhossein Mohammadi
+
 theme:
-  name: material
+  variant: classic
   palette:
-    - scheme: default
-      primary: purple
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-7
-        name: Dark mode
-    - scheme: slate
+        icon: material/lightbulb-auto
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
       primary: purple
+      accent: purple
       toggle:
-        icon: material/brightness-4
-        name: Light mode
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to system preference
+  font:
+    text: Vazirmatn
+    code: JetBrains Mono
+  icon:
+    repo: octicons/mark-github-24
   features:
-    - navigation.tabs
-    - navigation.sections
+    - content.code.annotate
     - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - navigation.tabs
+    - content.tabs.link
+    - navigation.tabs.sticky
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
     - search.suggest
+    - toc.follow
 
 nav:
   - Home: index.md
@@ -30,9 +65,29 @@ nav:
     - Install: learn/install.md
     - Usage: learn/usage.md
 
-markdown_extensions:
-  - tables
-  - admonition
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
+extra:
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/BlackIQ
+      name: Follow me in GitLab
+    - icon: fontawesome/brands/github
+      link: https://github.com/BlackIQ
+      name: Follow me in GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/amirhosseinmohammadi
+    - icon: fontawesome/solid/envelope
+      link: mailto:hi@amirhossein.info
+      name: Connect in LinkedIn
+
+plugins:
+  - search
+
+validation:
+  invalid_links: true
+  invalid_link_anchors: true
+  unresolved_references: false
+  unresolved_footnotes: false
+  unused_definitions: false
+  unused_footnotes: false
+  shadowed_definitions: false
+  shadowed_footnotes: false
