@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyis"
-version = "1.10.7"
+version = "1.10.8"
 description = "A Python library for value validation and internet status checks"
 readme = "README.md"
 requires-python = ">=3.10"

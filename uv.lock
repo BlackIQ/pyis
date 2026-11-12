@@ -974,7 +974,7 @@ wheels = [
 
 [[package]]
 name = "pyis"
-version = "1.10.7"
+version = "1.10.8"
 source = { editable = "." }
 
 [package.dev-dependencies]
