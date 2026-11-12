@@ -39,7 +39,6 @@ include = ["pyis*"]
 [dependency-groups]
 dev = [
     "build>=1.6.1",
-    "zensical>=0.1.0",
     "pytest>=9.2.0",
     "twine>=7.0.0",
 ]
