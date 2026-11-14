@@ -12,7 +12,7 @@ validations.amount.is_set(None)       # False
 validations.numbers.is_positive(3)    # True
 ```
 
-|        |                                                         |
+| Title  | URL                                                     |
 | ------ | ------------------------------------------------------- |
 | PyPI   | [pypi.org/project/pyis](https://pypi.org/project/pyis/) |
 | Source | [GitHub](https://github.com/BlackIQ/pyis)               |
