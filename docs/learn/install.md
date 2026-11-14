@@ -9,7 +9,3 @@ With uv:
 ```bash
 uv add pyis
 ```
-
-```python
-from pyis import validations
-```
